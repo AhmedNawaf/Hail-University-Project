@@ -1,0 +1,13 @@
+.input {
+    padding: 8rem 0;
+}
+@media(min-width: 767px) {
+    form button ,form a  {
+        width: 25% !important;
+    }
+}
+@media(max-width: 767px) {
+    .col-12 {
+        border-radius: 0;
+    }
+}

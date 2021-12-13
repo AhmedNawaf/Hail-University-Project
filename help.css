@@ -1,0 +1,13 @@
+section.help {
+    background-color: #f9f8f8;
+}
+section.help .help-heading {
+    padding-top: 10em;
+}
+
+section.help form {
+    padding-top: 4em;
+}
+section.help form textarea {
+    height: 20vh;
+}

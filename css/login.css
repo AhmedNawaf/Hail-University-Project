@@ -1,0 +1,16 @@
+.overlay {
+    display: block;
+}
+.contents {
+    padding-top: 12rem;
+}
+.col-12 {
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: 5rem;
+}
+.login form {
+    padding: 5rem;
+}
+.login form label {
+    font-size: larger;
+}

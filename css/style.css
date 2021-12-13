@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
+* {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-decoration: none;
+    list-style: none;
+}
+nav {
+    border-top: 3px solid yellow;
+    background: rgba(0, 0, 0,0.9);
+}
+.navbar button i {
+    color: #fff;
+    opacity: 0.8;
+}
+.nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.5s ease;
+}
+.nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.nav-link:focus {
+    color: rgba(255, 255, 255, 1);
+}
+.dropdown-item {
+    padding: 1rem;
+}
+.white {
+    color: white !important;
+}
+.works {
+    background: url(/images/main-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0,0.7);
+    min-height: 100vh;
+}
+.overlay h1 {
+    color: rgba(255, 255, 255, 1);
+}
+.overlay h1 span {
+    margin-top: 2rem;
+    font-size: larger;
+}
+.info {
+    background: rgba(255, 255, 255, 1);
+}
+.speech h1{
+    padding-top: 5rem;
+    font-weight: bold;
+}
+.speech p {
+    padding: 1rem 0 1rem;
+    text-align: start;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
+}
+.video-container iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+.inputs {
+    padding: 3rem 0 5rem;
+}
+.inputs button {
+    padding: 1rem 2rem;
+}
+.news {
+    background: rgb(47,137,252);
+    background: linear-gradient(0deg, rgba(47,137,252,0.6) 0%, rgba(64,81,78,1) 100%);
+}
+.news-contents h2 {
+    padding: 5rem 0 4rem;
+    color: rgba(255, 255, 255, 1);
+}
+.new {
+    padding: 2rem 2rem;
+}
+.card-title,.card-text {
+    text-align: start;
+}
+.footer {
+    background:#40514e;
+}
+.footer-contents {
+    padding-top: 5rem;
+}
+.list {
+    padding: 0;
+    padding: 1rem 0;
+}
+.list li {
+    padding: 0.5rem 0;
+}
+.footer-contents h3, .list li a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-contents h3, .list li a:hover {
+    color: rgba(255, 255, 255,0.8);
+}
+.services {
+    padding: 2rem;
+}
+.credits {
+    padding: 3.5rem 2rem;
+}
+.credits p {
+    color: #fff;
+}
